@@ -1,3 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="app_name">CST2335-FinalProject</string>
+
+        <!--Feature and Functions-->
+
+        <string name="app_name">BBC NEWS</string>
+        <string name="header">Welcome to News Feed Reader</string>
+        <string name="save">Save</string>
+        <string name="delete">Delete</string>
+        <string name="help">Help</string>
+        <string name="favourites">Favourites</string>
+        <string name="saved">Articles Saved</string>
+        <string name="send">Send</string>
+        <string name="confirmation">Article Saved</string>
+
+        <!-- About BBC-->
+
+        <string name="about">Get the latest BBC News: international news, features, and analysis from the United States and Canada.</string>
+        <string name="punchline">Be first. Get faster updates. </string>
+        <string name="usp">Focus on what matters and see only the content you care about.</string>
+
+        <!--User Guide and User experience-->
+
+        <string name="fullStory">Click the article to read full story </string>
+        <string name="addFvrt">Click Save Article button to add to favourites.</string>
+        <string name="viewFvrt">Click Star Icon on the menu to view your favourites list.</string>
+        <string name="mored">Explore About Us section to know us better.</string>
+        <string name="story">BBC World News is a commercially funded international 24-hour news and information channel, broadcast in English in more than 200 countries and territories across the globe.</string>
+        <string name="removeFvrt">Touch and hold on the articles to remove them from favourites.</string>
+        <string name="view">Tap on the articles section to open it.</string>
+        <string name="feedback">We constantly seek feedback to improve and evolve our service, please help us improve!</string>
+
 </resources>

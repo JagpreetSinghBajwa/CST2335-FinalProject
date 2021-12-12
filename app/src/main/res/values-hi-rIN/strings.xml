@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Feature and Functions-->
+
+    <string name="app_name">बीबीसी समाचार</string>
+    <string name="header">न्यूज फीड रीडर में आपका स्वागत है</string>
+    <string name="save">सहेजें</string>
+    <string name="delete">हटाएं</string>
+    <string name="help">मदद</string>
+    <string name="favourites">पसंदीदा</string>
+    <string name="saved">लेख सहेजे गए</string>
+    <string name="send">भेजना</string>
+    <string name="confirmation">लेख सहेजा गया</string>
+
+    <!-- About BBC-->
+
+    <string name="about">नवीनतम बीबीसी समाचार प्राप्त करें: संयुक्त राज्य और कनाडा से अंतर्राष्ट्रीय समाचार, सुविधाएँ और विश्लेषण।</string>
+    <string name="punchline">पहले बनो। तेजी से अपडेट प्राप्त करें। </string>
+    <string name="usp">जो मायने रखता है उस पर ध्यान दें और केवल वही सामग्री देखें जो आपके लिए मायने रखती है।</string>
+
+    <!--User Guide and User experience-->
+
+    <string name="fullStory">पूरी कहानी पढ़ने के लिए लेख पर क्लिक करें </string>
+    <string name="addFvrt">पसंदीदा में जोड़ने के लिए लेख सहेजें बटन पर क्लिक करें।</string>
+    <string name="viewFvrt">अपनी पसंदीदा सूची देखने के लिए मेनू पर स्टार आइकन पर क्लिक करें। </string>
+    <string name="mored">हमें बेहतर तरीके से जानने के लिए हमारे बारे में अनुभाग का अन्वेषण करें।</string>
+    <string name="story">बीबीसी वर्ल्ड न्यूज़ एक व्यावसायिक रूप से वित्त पोषित अंतरराष्ट्रीय 24 घंटे का समाचार है और
+        सूचना चैनल, दुनिया भर में 200 से अधिक देशों और क्षेत्रों में अंग्रेजी में प्रसारित</string>
+
+    <string name="removeFvrt">लेखों को पसंदीदा से हटाने के लिए उन्हें स्पर्श करके रखें</string>
+    <string name="view">इसे खोलने के लिए लेख अनुभाग पर टैप करें।</string>
+    <string name="feedback">हम अपनी सेवा को बेहतर बनाने और विकसित करने के लिए लगातार प्रतिक्रिया चाहते हैं, कृपया हमें बेहतर बनाने में मदद करें</string>
+
+</resources>
