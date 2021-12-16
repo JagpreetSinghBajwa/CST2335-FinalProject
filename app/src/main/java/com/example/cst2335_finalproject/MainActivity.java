@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 
 import android.widget.ListView;
@@ -54,18 +55,14 @@ public class MainActivity extends AppCompatActivity {
 
         progressBar.setVisibility(View.INVISIBLE);
 
-        newsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        newsList.setOnItemClickListener((parent, view, position, id) -> {
 
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                Intent in = new Intent(MainActivity.this, DetailNews.class);
-                in.putExtra("headline", newsInfoList.get(position).getHeadline());
-                in.putExtra("description", newsInfoList.get(position).getDescription());
-                in.putExtra("link", newsInfoList.get(position).getLink());
-                in.putExtra("date",newsInfoList.get(position).getDate());
-                startActivityForResult(in,10);
-            }
+            Intent in = new Intent(MainActivity.this, DetailNews.class);
+            in.putExtra("headline", newsInfoList.get(position).getHeadline());
+            in.putExtra("description", newsInfoList.get(position).getDescription());
+            in.putExtra("link", newsInfoList.get(position).getLink());
+            in.putExtra("date",newsInfoList.get(position).getDate());
+            startActivityForResult(in,10);
         });
 
     }
